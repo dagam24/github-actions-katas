@@ -1,7 +1,7 @@
 name: Main workflow
 on: push
 env:
-  docker_username: davidegambaDk
+  docker_username: davidegambadk
   docker_password: ${{ secrets.GITHUB_TOKEN }} #Nees to be set to be made available to the workflow
   GIT_COMMIT: ${{ github.sha }}
 jobs:
